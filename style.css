@@ -175,3 +175,75 @@ footer {
     margin: 0 10px;
     font-size: 14px;
 }
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .exchange {
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .exchange-box {
+        width: 90%;
+    }
+
+    .swap-btn {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .features,
+    .crypto-info {
+        padding: 30px 20px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .exchange-box {
+        padding: 15px;
+    }
+
+    .swap-btn {
+        font-size: 16px;
+        padding: 6px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
