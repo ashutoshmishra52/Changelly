@@ -85,8 +85,8 @@ nav ul li a:hover {
 
 .exchange {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     gap: 20px;
     padding: 40px;
 }
@@ -97,20 +97,8 @@ nav ul li a:hover {
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 250px;
-}
-
-.exchange-box label {
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.exchange-box input, .exchange-box select {
     width: 100%;
-    margin-top: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
+    max-width: 300px;
 }
 
 .swap-btn {
@@ -123,43 +111,6 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-.swap-btn:hover {
-    background: #009876;
-}
-
-.features {
-    text-align: center;
-    padding: 50px 20px;
-}
-
-.features h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-.features ul {
-    list-style: none;
-}
-
-.features ul li {
-    font-size: 18px;
-    margin-top: 10px;
-}
-
-.crypto-info {
-    text-align: center;
-    padding: 50px 20px;
-}
-
-.crypto-info h1 {
-    font-size: 30px;
-}
-
-.highlight {
-    color: #00c896;
-    font-weight: 600;
-}
-
 footer {
     background: #222;
     color: white;
@@ -167,56 +118,35 @@ footer {
     text-align: center;
 }
 
-.partners {
-    margin-bottom: 10px;
-}
-
-.partners span {
-    margin: 0 10px;
-    font-size: 14px;
-}
 @media (max-width: 768px) {
     header {
         flex-direction: column;
         text-align: center;
-        padding: 10px;
+        padding: 15px;
     }
 
     nav ul {
         flex-direction: column;
+        align-items: center;
         gap: 10px;
-    }
-
-    .hero {
-        padding: 50px 20px;
+        padding: 10px 0;
     }
 
     .hero h1 {
         font-size: 32px;
     }
 
+    .hero p {
+        font-size: 16px;
+    }
+
     .exchange {
         flex-direction: column;
-        gap: 10px;
-        padding: 20px;
+        align-items: center;
     }
 
     .exchange-box {
         width: 90%;
-    }
-
-    .swap-btn {
-        font-size: 18px;
-        padding: 8px;
-    }
-
-    .features,
-    .crypto-info {
-        padding: 30px 20px;
-    }
-
-    footer {
-        font-size: 14px;
     }
 }
 
