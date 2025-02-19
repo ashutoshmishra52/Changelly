@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #f6fff0, #e3f9e5);
+    color: #333;
+}
+
+header {
+    background: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #00c896;
+    display: flex;
+    align-items: center;
+}
+
+.logo::before {
+    content: "⚡";
+    margin-right: 8px;
+    font-size: 22px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00c896;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #222;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 18px;
+    background: #00c896;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background: #009876;
+}
+
+.exchange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.exchange-box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.exchange-box label {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.exchange-box input, .exchange-box select {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.swap-btn {
+    font-size: 20px;
+    background: #00c896;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.swap-btn:hover {
+    background: #009876;
+}
+
+.features {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.features h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style: none;
+}
+
+.features ul li {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.crypto-info {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.crypto-info h1 {
+    font-size: 30px;
+}
+
+.highlight {
+    color: #00c896;
+    font-weight: 600;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.partners {
+    margin-bottom: 10px;
+}
+
+.partners span {
+    margin: 0 10px;
+    font-size: 14px;
+}
