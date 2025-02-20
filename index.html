@@ -8,13 +8,14 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
+
     <header>
         <nav>
-
-                <img src="favicon.ico" alt="Changelly" height="35">
-                Changelly
+            <div class="logo">
+                <img src="favicon.ico" alt="Changelly" height="35"> Changelly
             </div>
-            <ul>
+            <button class="hamburger" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links">
                 <li><a href="#">Exchange</a></li>
                 <li><a href="#">Support</a></li>
                 <li><a href="#">Affiliate</a></li>
@@ -22,13 +23,13 @@
             </ul>
         </nav>
     </header>
-    
+
     <section class="hero">
         <h1>Instant Crypto Exchange</h1>
         <p>Exchange cryptocurrencies at the best rates</p>
         <button onclick="startExchange()">Start Exchange</button>
     </section>
-    
+
     <section class="exchange">
         <div class="exchange-box">
             <label for="from">You Send</label>
@@ -51,21 +52,7 @@
         </div>
         <button onclick="exchangeNow()">Exchange Now</button>
     </section>
-    
-    <section class="features">
-        <h2>Why Choose Us?</h2>
-        <ul>
-            <li>Best exchange rates</li>
-            <li>Fast transactions</li>
-            <li>Secure and reliable</li>
-        </ul>
-    </section>
-    
-    <section class="crypto-info">
-        <h1>Exchange any crypto <span class="highlight">instantly</span></h1>
-        <p>Exchange Bitcoin and 1000+ altcoins in a fast, simple, and secure way.</p>
-    </section>
-    
+
     <footer>
         <div class="partners">
             <span>⚡ EXODUS</span>
@@ -73,9 +60,9 @@
             <span>🔒 CoolWallet</span>
             <span>🔐 TREZOR</span>
         </div>
-        <p>&copy; 2025 Changelly Clone. All rights reserved.</p>
+        <p>&copy; 2025 codewithashutosh. All rights reserved.</p>
     </footer>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
